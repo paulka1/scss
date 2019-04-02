@@ -1,0 +1,54 @@
+/*  SETUP OF RING  */
+
+@mixin ring($height, $x, $y, $blur, $color){
+  border-radius: 50%;
+  height: $height;
+  width: $height;
+  background: transparent;
+  box-shadow : $x $y $blur darken($color, 50);
+  border :  $height/10 solid $color;
+}
+
+/*    RING ONE  */  
+
+  .firstLineRing{
+    @include ring(60px, 1px, 1px, 1px, orange);
+  }
+  
+
+ #firstPhrase{
+      display: flex;
+      justify-content: center;
+      
+      h1{align-self: center}
+  }
+  
+/*    RING TW0  */
+
+  #secondLineRing{
+    @include ring(150px, 1px, 1px, 1px, yellow);
+  }
+  
+
+  #secondPhrase{
+      display: flex;
+      justify-content: center;
+      
+      p{align-self: center}
+  }
+  
+  /*    LOOP OF RING  */
+
+  @for $i from 1 through 6 {
+  .blackRing#{$i} { 
+    @include ring(20px*$i,1px, 1px, 1px, black);
+    margin-right:  1px/100px*100% - $i;
+  }
+  }
+
+
+  #thirdPhrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
