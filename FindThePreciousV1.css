@@ -1,0 +1,153 @@
+                    /*FONT*/
+@font-face{
+font-family: "fontTitre";
+src:url('pete-klassen_aniron/anicb__ttf')
+}                                    
+@font-face{
+font-family: "fontAroundTitre";
+src:url('tengwar_annatar/tngan.ttf')
+}   
+@font-face{
+font-family: "fontText";
+src:url('nancy-lorenz_party-business/partyBusiness.ttf')
+}                 
+
+                    /* HEADER */
+.navBorder{
+    border-right: 1px solid white;
+}
+#navbarNavAltMarkup{
+    justify-content:center;
+}
+#navHeader{
+    background-color: #ff6600;
+}
+#navbarNavAltMarkup a{
+    color:gainsboro;
+}
+#navbarNavAltMarkup a:hover{
+    color:white;
+    text-decoration: underline;
+}
+nav{
+    font-family: "fontTitre";
+    font-size:2vw;
+}
+    /* FOOTERS */
+
+
+ #bodyMain{
+     background-color: beige; 
+     height: 800px;
+     text-align: center;
+ }
+
+        /* FIRST RING*/
+
+ .firstLineRing {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background: transparent;
+  box-shadow: 1px 1px 1px black;
+  border: 6px solid orange;
+}
+
+#firstPhrase {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#firstPhrase h1 {
+  align-self: center;
+  padding: 10px;
+}
+
+        /* SECOND RING */
+
+
+#secondLineRing {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 15px solid yellow;
+    }
+    
+#secondPhrase {
+    display: flex;
+    justify-content: center;
+}
+
+#secondPhrase p {
+    align-self: center;
+    padding-left: 20px;
+}  
+
+.blackRing1 {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 2px solid black;
+    margin-right: 0%;
+  }
+  
+  .blackRing2 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 4px solid black;
+    margin-right: -1%;
+  }
+  
+  .blackRing3 {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 6px solid black;
+    margin-right: -2%;
+  }
+  
+  .blackRing4 {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 8px solid black;
+    margin-right: -3%;
+  }
+  
+  .blackRing5 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 10px solid black;
+    margin-right: -4%;
+  }
+  
+  .blackRing6 {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background: transparent;
+    box-shadow: 1px 1px 1px black;
+    border: 12px solid black;
+    margin-right: -5%;
+  }
+
+#thirdPhrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
